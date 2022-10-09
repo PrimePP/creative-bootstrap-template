@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import FavNav from "./Nav";
+import FavMast from "./MastHead";
+import FavAb from "./FavAbout";
+import FavService from "./FavServices";
+import FavCta from "./FavCTA"
+import Gall from "./FavGal";
+import FavCon from "./FavContact";
+import FavFoot from "./FavFooter";
 
-function App() {
+const MyApp = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <FavNav />
+      <FavMast/>
+      <FavAb/>
+      <FavService/>
+       <Gall/>
+      <FavCta/>
+      <FavCon/>
+      <FavFoot/>
     </div>
   );
-}
+};
 
-export default App;
+export default MyApp;
