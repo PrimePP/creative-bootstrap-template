@@ -12,4 +12,4 @@ What I learnt in this project
 - Breaking project elements and making the project modular
 
 Deployed on Netlify
-[**Netlify Link**]()
+[**Netlify Link**](https://moonlit-souffle-50dce0.netlify.app/)
